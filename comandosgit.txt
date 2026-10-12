@@ -41,3 +41,6 @@ Para mostrar as diferenças entre dois commits usando hashes
 
 Para mostrar as diferenças entre dois commits usando head em vez de hashes
     git diff HEAD~1 HEAD~3
+
+O git diff pode comparar duas branches diferentes
+    git diff main bug-fix
