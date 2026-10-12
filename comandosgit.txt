@@ -44,3 +44,10 @@ Para mostrar as diferenças entre dois commits usando head em vez de hashes
 
 O git diff pode comparar duas branches diferentes
     git diff main bug-fix
+
+Para renomear uma branch utilizamos o comando `git branch -m nome-da-branch novo-nome`
+    git branch -m bug-fix bug-fix-responsividade
+
+Para excluir uma branch utilizamos o comando `git branch -d nome-da-branch`
+    git branch -d bug-fix
+    
