@@ -20,3 +20,13 @@ Cria uma nova branch, mas mantém você na branch atual. Por exemplo:
 	git branch bug-fix
 
 Depois de criá-la, use `git switch bug-fix` para começar a trabalhar nela.
+
+Caso queira criar e já mudar para a branch utilizamos o comando `git switch -c nome-da-branch`. Por exemplo:
+    git switch -c bug-fix
+
+Para mostrar as diferenças entre todos os arquivos não preparados e o ultimo commit utilizamos o 
+    git diff
+
+Para mostrar as diferenças entre um arquivo não preparado e o último commit utilizamos
+    git diff index.html
+
