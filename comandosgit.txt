@@ -51,3 +51,13 @@ Para renomear uma branch utilizamos o comando `git branch -m nome-da-branch novo
 Para excluir uma branch utilizamos o comando `git branch -d nome-da-branch`
     git branch -d bug-fix
     
+Caso ainda não exista a branch no meu github mas apenas no meu repositório local (git)
+utilizamos o comando `git branch -D nome-da-branch`
+    git branch -D bug-fix
+
+Combinar ou mesclar branches
+
+Para mesclar ou combinar uma branch com outra usamos o comando `git merge nome-da-branch`
+Entretanto vale ressaltar que: É necessário estar na branch que você quer trazer a branch de destino
+Ex: Quero trazer os arquivos da branch bug-fix para a main então é necessário que eu esteja
+na branch main, para depois fazer o merge
