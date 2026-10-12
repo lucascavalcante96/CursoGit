@@ -30,3 +30,4 @@ Para mostrar as diferenças entre todos os arquivos não preparados e o ultimo c
 Para mostrar as diferenças entre um arquivo não preparado e o último commit utilizamos
     git diff index.html
 
+Para mostrar as diferenças entre todos os arquivos preparados e o ultimo commit
