@@ -35,3 +35,9 @@ Para mostrar as diferenças entre todos os arquivos preparados e o ultimo commit
 
 Para mostrar as diferenças entre um arquivo preparado e o ultimo commit
     git diff --staged index.html
+
+Para mostrar as diferenças entre dois commits usando hashes
+    git diff 35f95fe 85fes9e
+
+Para mostrar as diferenças entre dois commits usando head em vez de hashes
+    git diff HEAD~1 HEAD~3
