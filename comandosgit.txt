@@ -31,3 +31,4 @@ Para mostrar as diferenças entre um arquivo não preparado e o último commit u
     git diff index.html
 
 Para mostrar as diferenças entre todos os arquivos preparados e o ultimo commit
+    git diff --staged
