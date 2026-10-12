@@ -61,3 +61,7 @@ Para mesclar ou combinar uma branch com outra usamos o comando `git merge nome-d
 Entretanto vale ressaltar que: É necessário estar na branch que você quer trazer a branch de destino
 Ex: Quero trazer os arquivos da branch bug-fix para a main então é necessário que eu esteja
 na branch main, para depois fazer o merge
+
+Podemos fazer o marge sem estar na branch entretanto é necessário colocar a origem e o destino
+    git merge bug-fix main
+
