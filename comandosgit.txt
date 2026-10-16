@@ -65,3 +65,18 @@ na branch main, para depois fazer o merge
 Podemos fazer o marge sem estar na branch entretanto é necessário colocar a origem e o destino
     git merge bug-fix main
 
+Clonar um repositório:
+    git clone URL
+
+Cria uma cópia local do repositório remoto informado pela URL, incluindo seus arquivos e histórico de commits. Por exemplo:
+    git clone https://github.com/usuario/projeto.git
+
+Esse comando cria uma pasta chamada `projeto` com o conteúdo do repositório. Também configura o repositório remoto com o nome `origin`.
+
+Adicionar um repositório remoto:
+    git remote add nome URL
+
+Vincula o repositório local a um repositório remoto, usando um nome para identificá-lo. Por exemplo:
+    git remote add origin https://github.com/usuario/projeto.git
+
+Nesse exemplo, `origin` é o nome dado ao repositório remoto. Depois, esse nome pode ser usado para enviar ou buscar alterações, como em `git push origin main` e `git fetch origin`. O comando é útil, por exemplo, quando o repositório local foi criado com `git init` e ainda não está vinculado a um remoto.
